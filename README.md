@@ -48,16 +48,16 @@ The Basic Connections are:
 ### Getting Mono Sound
 <img src="Images/MonoSound.jpg">
 To Get Mono Sound:
-- **_1_**: Connect the A- pin from the PAM8302A, to the Gnd pin of the Audio Jack on the Serial MP3 Player.
-- **_2_**: Connect the A+ pin from the PAM8302A, to the right or left speaker pins of the Audio Jack on the Serial MP3 Player.
+- **_1_**: Connect the A- pin from the PAM8302A, to the Gnd pin of the Audio Jack on the Serial MP3 Player. 
+- **_2_**: Connect the A+ pin from the PAM8302A, to the right or left speaker pins of the Audio Jack on the Serial MP3 Player. 
 
 ### Getting Stereo Sound
 <img src="Images/StereoSound.jpg">
 To Get Stereo Sound:
-- **_1_**: Connect the Right speaker pin of the Audio Jack on the Serial MP3 Player, to a leg of a 1K ohm resistor.
+- **_1_**: Connect the Right speaker pin of the Audio Jack on the Serial MP3 Player, to a leg of a 1K ohm resistor. 
 - **_2_**: Connect the left speaker pin of the Audio Jack on the Serial MP3 Player, to a leg of anoter 1K ohm resistor.
-- **_3_**: Connect the free legs of both 1K resistors to each other.
-- **_4_**: Connect the A+ pin from the PAM8302A, to the joint legs of both 1k resistors.
+- **_3_**: Connect the free legs of both 1K resistors to each other. 
+- **_4_**: Connect the A+ pin from the PAM8302A, to the joint legs of both 1k resistors. 
 
 ### Uploading Code
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
