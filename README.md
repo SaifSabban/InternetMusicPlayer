@@ -62,5 +62,5 @@ To Get Stereo Sound:
 ### Uploading Code
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
 
-Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5eea255f6c2eea000c4453d3). It should open your Web IDE with all the necessary files needed.
+Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5f1188c4fb925e0016ff4b22). It should open your Web IDE with all the necessary files needed.
 If you're using a computer application, you can find the necessary files needed under the [InternetMusicPlayer_V1 Zip](https://github.com/saifsabban/InternetMusicPlayer/tree/master/InternetMusicPlayer_V1).
