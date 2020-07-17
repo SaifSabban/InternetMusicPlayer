@@ -92,16 +92,16 @@ If you're using a computer application, you can find the necessary files needed 
 
 ## Understanding The Particle Variables
 
-_1_Music_: Shows what state music is at Playing, Paused, or Stopped._
+**_1_Music_**: Shows what state music is at Playing, Paused, or Stopped.
 
-_2_VolLevel_: Shows Current Volume Level.
+**_2_VolLevel_**: Shows Current Volume Level.
 
-_3_CycleState_: Shows Current Cycle State. 0 = Stopped Cycle, 1 = Cycling.
+**_3_CycleState_**: Shows Current Cycle State. 0 = Stopped Cycle, 1 = Cycling.
 
-_4_SpeakerState_: Shows Current Speaker State. 0 = Disabled Speaker, 1 = Enabled Speaker.
+**_4_SpeakerState_**: Shows Current Speaker State. 0 = Disabled Speaker, 1 = Enabled Speaker.
 
-_5_PlayerState_: Shows Current MP3 Player State. 0 = Sleeping, 1 = Awake.
+**_5_PlayerState_**: Shows Current MP3 Player State. 0 = Sleeping, 1 = Awake.
 
-_6_Song_: Shows Current Song.
+**_6_Song_**: Shows Current Song.
 
-_7_Folder_: Shows Current Folder.
+**_7_Folder_**: Shows Current Folder.
