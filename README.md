@@ -64,28 +64,29 @@ To Get Stereo Sound:
 ## Uploading Code
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
 
-Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5f118e1afb925e0008ff4b5a). It should open your Web IDE with all the necessary files needed.
-If you're using a computer application, you can find the necessary files needed under the [InternetMusicPlayer_V1 Zip](https://github.com/saifsabban/InternetMusicPlayer/tree/master/InternetMusicPlayer_V1).
+Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5f1fe962fb925e0016ffc581). It should open your Web IDE with all the necessary files needed.
+If you're using a computer application, you can find the necessary files needed under the [InternetMusicPlayer_V2 Zip](https://github.com/saifsabban/InternetMusicPlayer/tree/master/InternetMusicPlayer_V1).
 
 ## Understanding The Particle Functions
 
-**_01_MusicState_**: Choose if you want to play, pause or stop a song. 0 = Pause, 1 = Play, 2 = Stop. Or type in the words play, pause or stop.
 
-**_02_SkipSong_**: Choose if you want to skip to next or previous song. 0 = Previous Song, 1 = Next Song. Or type in the words Previous, or Next.
+**_01_PlayFolderSong_**: Choose a song & file to play. You can only go between 0 and 65535. Song limit 0-654, folder limit 0-99. Type as one number.
 
-**_03_Volume_**: Choose what volume level you want, you can only go between 0 and 100.
+**_02_MusicState_**: Choose if you want to play, pause or stop a song. 0 = Pause, 1 = Play, 2 = Stop. Or type in the words play, pause or stop.
 
-**_04_Cycle_**: Choose if you want to cycle the current folder. 0 = Stop Cycle, 1 = Allow Cycle.
+**_03_SkipSong_**: Choose if you want to skip to next or previous song. 0 = Previous Song, 1 = Next Song. Or type in the words Previous, or Next.
 
-**_05_SpeakerState_**: Choose if you want to enable or disable speaker. 0 = Disable Speaker, 1 = Enable Speaker.
+**_04_Volume_**: Choose what volume level you want, you can only go between 0 and 100.
 
-**_06_MP3PlayerState_**: Choose if you want to have player go to sleep, wakeup, or reset. 0 = Sleep, 1 = Wake, 2 = Restart. Or type in the words Sleep, Wake or Restart.
+**_05_Cycle_**: Choose if you want to cycle the current folder. 0 = Stop Cycle, 1 = Allow Cycle.
 
-**_07_PlaySong_**: Choose what song you want to play from current file. You can only go between 0 and 255.
+**_06_SpeakerState_**: Choose if you want to enable or disable speaker. 0 = Disable Speaker, 1 = Enable Speaker.
 
-**_08_PlayFolder_**: Choose a file & play the first song there. You can only go between 0 and 255.
+**_07_MP3PlayerState_**: Choose if you want to have player go to sleep, wakeup, or reset. 0 = Sleep, 1 = Wake, 2 = Restart. Or type in the words Sleep, Wake or Restart.
 
-**_09_PlayFolderSong_**: Choose a song & file to play. You can only go between 0 and 65535. Song limit 0-654, folder limit 0-99. Type as one number.
+**_08_PlaySong_**: Choose what song you want to play from current file. You can only go between 0 and 255. (Needs Fixing)
+
+**_09_PlayFolder_**: Choose a file & play the first song there. You can only go between 0 and 255. (Needs Fixing)
 
 **_10_Restart_0_**: Restarts Particle Photon, type; Yes Or 0.
 
